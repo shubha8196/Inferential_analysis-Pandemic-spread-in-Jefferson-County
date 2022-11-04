@@ -28,15 +28,19 @@ data-512-homework_1/
   |- README.md
   |- LICENSE
   |- data
-    |-
-    |-
-    |-
+    |- RAW_us_confirmed_cases.csv
+    |- mask-use-by-county.csv
+    |- U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.zip
   |- Part 1- Jupyter notebook.ipynb
   |- Part 1- Collective Analysis - Reflection Statement.pdf
   |- Part 1- Collective Analysis - Visualization Explanation.pfd
   |- Visualization.png
 ```
 ##Input files 
+ RAW_us_confirmed_cases.csv
+ mask-use-by-county.csv
+ U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.zip
+
 
 ## Jupyter Notebook
 Part 1- Jupyter notebook.ipynb : Contains the code used for analysis and plotting the visualization
