@@ -37,18 +37,19 @@ data-512-homework_1/
   |- Visualization.png
 ```
 ##Input files 
-1) RAW_us_confirmed_cases.csv
-2) mask-use-by-county.csv
-3) U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.zip
+1) RAW_us_confirmed_cases.csv : The RAW_us_confirmed_cases.csv file from the Kaggle repository of [John Hopkins University COVID-19 data](https://www.kaggle.com/datasets/antgoldbloom/covid19-data-from-john-hopkins-university). This data is updated daily. You can use any revision of this dataset posted after October 1, 2022.
+2) mask-use-by-county.csv : The New York Times [mask compliance survey](https://github.com/nytimes/covid-19-data/tree/master/mask-use) data.
+3) U.S._State_and_Territorial_Public_Mask_Mandates_From_April_10__2020_through_August_15__2021_by_County_by_Day.zip : The CDC dataset of [masking mandates by county](https://data.cdc.gov/Policy-Surveillance/U-S-State-and-Territorial-Public-Mask-Mandates-Fro/62d6-pm5i). Note that the CDC stopped collecting this policy information in September 2021.
 
+[Pageviews API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)
 
 ## Jupyter Notebook
 Part 1- Jupyter notebook.ipynb : Contains the code used for analysis and plotting the visualization
 
 ## Outputs/Visualizations Obtained
-1) Part 1- Collective Analysis - Reflection Statement.pdf 
-2) Part 1- Collective Analysis - Visualization Explanation.pfd
-3) Visualization.png
+1) Part 1- Collective Analysis - Reflection Statement.pdf : Provides a reflection statement on what I got out of this collaborative assignment
+2) Part 1- Collective Analysis - Visualization Explanation.pfd : Provides an explanation of the visualization obtained
+3) Visualization.png - Display the final visualization obtained
 
 ## Issues/ Special considerations
 1) Moving average (over 7 days) of the daily cases counts data also incorporated in the analaysis and visualization approach to account for case counts not being updated for every single day in a week to help smooth out-trend information by creating a constantly updated average value in the visualization.
