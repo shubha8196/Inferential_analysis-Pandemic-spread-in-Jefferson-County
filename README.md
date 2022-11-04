@@ -46,7 +46,7 @@ data-512-homework_1/
 Part 1- Jupyter notebook.ipynb : Contains the code used for analysis and plotting the visualization
 
 ## Outputs/Visualizations Obtained
- Part 1- Collective Analysis - Reflection Statement.pdf
+ Part 1- Collective Analysis - Reflection Statement.pdf 
  Part 1- Collective Analysis - Visualization Explanation.pfd
  Visualization.png
 
@@ -59,6 +59,7 @@ Part 1- Jupyter notebook.ipynb : Contains the code used for analysis and plottin
 ![Visualization](/Visualization.png)
 
 Above is a time series plot visualizing the variations in the COVID-19 daily infection rate in Jefferson County (state of Kentucky) during and beyond the periods when mask mandate policies were established in Jefferson County.
+
 •	Here, the X-axis represents the dates for which the cumulative inflected case count is made available through the RAW_us_confirmed_cases.csv data set for Jefferson County. The Y-axis represents the number of cases per day which is derived by subtracting the previous date's cumulative inflected case count from the current date's cumulative inflected case count.
 •	The changepoints (represented by the red dotted lines) indicate the abrupt variations in the rate of infections i.e., timestamps where the change in inflected cases is significant from the confirmed cases dataset made available for Jefferson County. These changepoints were calculated using Pruned Exact Linear Time (PELT) Test
 •	The mask mandate policies data w.r.t Jefferson County is also incorporated into this visual. The 2 black dotted lines represent the date boundary for which mask mandate policy information is available in the US State and Territorial Public Mask mandates data provided (ie., from 04/10/2020 to 08/15/2021) The green line within this date boundary represents the variations in the daily infection rate when mandatory mask usage was established in Jefferson County and the blue line within this date boundary represents the variations in the daily infection rate when mandatory mask usage was not established in Jefferson County. The blue line beyond the date boundary represents the variations in the daily infection rate during periods where there is no information regarding the mask mandate policy in Jefferson County.
