@@ -52,7 +52,7 @@ Part 1- Jupyter notebook.ipynb : Contains the code used for analysis and plottin
 
 
 ## Snapshot of visual analysis
-![Visualization](/data-512-part1_common_analysis/Visualization.png)
+![Visualization](/Visualization.png)
 
 Above is a time series plot visualizing the variations in the COVID-19 daily infection rate in Jefferson County (state of Kentucky) during and beyond the periods when mask mandate policies were established in Jefferson County.
 •	Here, the X-axis represents the dates for which the cumulative inflected case count is made available through the RAW_us_confirmed_cases.csv data set for Jefferson County. The Y-axis represents the number of cases per day which is derived by subtracting the previous date's cumulative inflected case count from the current date's cumulative inflected case count.
